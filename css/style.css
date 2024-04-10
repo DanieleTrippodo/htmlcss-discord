@@ -305,6 +305,7 @@ div.column-big{
     background-image: url(../img/stars.svg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 
     max-width: 1250px;
     margin: 0;
@@ -339,3 +340,23 @@ div.column-big{
     padding: 0;
     margin: 0;
 }
+
+
+.li-link{
+    list-style-type: none;
+    padding: .8rem;
+}
+
+.prodotto{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* +SPECIALE+ */
+.space{
+    color: #23272a;;
+}
+/* +SPECIALE+ */
