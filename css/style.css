@@ -97,7 +97,7 @@ hr{
     font-size: 60px;
     font-family: bold;
     margin: 0;
-    padding-top: 11rem;
+    padding-top: 13.2rem;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -135,6 +135,8 @@ hr{
 }
 
 
+/*  */
+
 
 
 /* elementi del body */
@@ -144,9 +146,11 @@ main > section{
     padding: 4rem;
 }
 
+
 .about{
 display: flex;              /* ! Flex Container */
 flex-direction: row;
+flex-shrink: 1;
 }
 
 
@@ -165,11 +169,11 @@ div.column{
 }
 
 div.column-small{
-    width: 40%;
+    width: 30%;
 }
 
 div.column-big{
-    width: 40%;
+    width: 70%;
 }
 /* --------------------------------- */
 
@@ -279,21 +283,21 @@ div.column-big{
 
 #fotofinale{
     margin: 4rem;
+    margin-top: 0px;
 }
 
 /* + per ogni testo dentro al main */
 .descrizione2{
     color: rgb(35 39 42);
-    font-size: 15px;
+    font-size: 19px;
     line-height: 1.625;
     margin: auto;
     max-width: 780px;
     text-align: center;
     margin: 1%;
+    padding-top: 1rem;
 
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
+    font-family: "Open Sans", sans-serif;
 }
 
 
