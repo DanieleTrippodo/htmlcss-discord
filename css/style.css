@@ -10,6 +10,7 @@ header{
 }
 
 
+
 /* elementi cliccabili della nav bar */
 li{
     padding: 1.2rem;
@@ -62,7 +63,7 @@ hr{
     margin: 0;
     padding-left: 7rem;
     padding-right: 7rem;
-    margin-bottom: 7rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -76,6 +77,7 @@ hr{
     margin: 0;
     padding-left: 7rem;
     padding-right: 7rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -92,9 +94,11 @@ hr{
 /* titoli principali */
 .title{
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     font-family: bold;
     margin: 0;
+    padding-top: 11.5%;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* titoli secondari */
@@ -103,6 +107,7 @@ hr{
     font-size: 45px;
     font-family: bold;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -179,12 +184,13 @@ div.column-big{
 /* ------------------------ */
 .loginbutton{
     color: black;
-    height: auto;
+    height: 30px;
     width: auto;
     border-radius: 28px;
     border: none;
-    padding: 2px 32px;
+    padding: 2px 20px;
     margin: 1rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -197,6 +203,7 @@ div.column-big{
     border: none;
     padding: 16px 32px;
     margin: .5rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .bottone-small{
@@ -233,6 +240,11 @@ div.column-big{
     flex-direction: column;
     align-items: center;
     padding-bottom: 9rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 #seriebottoni{
@@ -249,10 +261,9 @@ div.column-big{
     max-width: 780px;
     text-align: center;
     margin: 1%;
+    
 
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -283,6 +294,18 @@ div.column-big{
     font-weight: inherit;
     font-style: inherit;
     font-family: inherit;
+}
+
+
+.spark{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-width: 1250px;
+    margin 0;
+    padding: 20px 100px;
+    font-size: 30px;
 }
 /* ------------------------ */
 
