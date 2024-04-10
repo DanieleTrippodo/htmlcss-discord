@@ -342,14 +342,39 @@ div.column-big{
 }
 
 
-.li-link{
-    list-style-type: none;
-    padding: .8rem;
+.ul-link{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;         /* margine tra le liste */
 }
 
+.li-link{
+    flex-direction: column;
+    list-style-type: none;
+    padding: .8rem;
+    padding-left: 10rem;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+/* ! flex container */
 .prodotto{
     display: flex;
     flex-direction: row;
+    justify-items: center;
+    
+}
+
+.Category{
+    color: #5865f2;
+    font-size: 25px;
+    padding-left: 10rem;
+
+    font-family: "Open Sans", sans-serif;
+
 }
 
 
@@ -360,3 +385,5 @@ div.column-big{
     color: #23272a;;
 }
 /* +SPECIALE+ */
+
+
