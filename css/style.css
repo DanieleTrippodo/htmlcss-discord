@@ -135,7 +135,24 @@ hr{
 }
 
 
-/*  */
+
+
+/* + Wave Image */
+.wave{
+    display: flex;
+    height: 100px;
+    filter: opacity(0.04);
+    background-image: url(../img/wave.svg);
+
+}
+
+/* + Wave Upside down */
+.upside-down{
+    transform: rotateX('180deg');       /* ! errore da correggere in futuro ! */
+}
+
+
+
 
 
 
